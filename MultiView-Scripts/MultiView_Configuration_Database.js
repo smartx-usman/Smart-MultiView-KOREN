@@ -40,7 +40,7 @@ db['configuration-vswitch-status'].insert( { boxType: "C", bridge: "brvlan", box
 //db['configuration-vswitch-status'].insert( { bridge: "br-int", box: "boxName", status: "RED" } )
 
 //Insert Controllers Data into Collection [Add One Entry for each controller]
-db['configuration-controller-list'].insert( { controllerIP: "210.114.90.172", ControllerName: "Cloud Controller", controllerType: "cloud", controllerSoftware: "OpenStack", controllerStatus: "GREEN", controllerUser: "netcs", controllerPass: "fn!xo!ska!" } )
+db['configuration-controller-list'].insert( { controllerIP: "", ControllerName: "Cloud Controller", controllerType: "cloud", controllerSoftware: "OpenStack", controllerStatus: "GREEN", controllerUser: "netcs", controllerPass: "fn!xo!ska!" } )
 
 //Insert Centres Data into Collection [Modify First]
-db['configuration-controller-list'].insert( { controllerIP: "210.114.90.172"})
+db['configuration-controller-list'].insert( { controllerIP: ""})
